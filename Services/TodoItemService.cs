@@ -10,11 +10,13 @@ namespace AspNetCoreTodo.Services
 {
     public class TodoItemService:ITodoItemService
     {
+        //数据库上下文
         private readonly ApplicationDbContext _context;
 
         public TodoItemService(ApplicationDbContext context)
         {
             this._context = context;
+
         }
 
         public async Task<TodoItem[]> GetIncompleteItemAsync(IdentityUser user)
