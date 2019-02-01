@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo", "AspNetCoreTodo.csproj", "{07A259E5-2023-4270-B2F5-6689CF1AF6DD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo.UnitTests", "..\AspNetCoreTodo.UnitTests\AspNetCoreTodo.UnitTests.csproj", "{8AAF56BF-A190-40BF-81A2-DCDEB5B01811}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{07A259E5-2023-4270-B2F5-6689CF1AF6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07A259E5-2023-4270-B2F5-6689CF1AF6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07A259E5-2023-4270-B2F5-6689CF1AF6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AAF56BF-A190-40BF-81A2-DCDEB5B01811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AAF56BF-A190-40BF-81A2-DCDEB5B01811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AAF56BF-A190-40BF-81A2-DCDEB5B01811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AAF56BF-A190-40BF-81A2-DCDEB5B01811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
